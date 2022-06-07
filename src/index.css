@@ -1,1 +1,11 @@
 @import "../node_modules/bootstrap/";
+
+.navbar-brand {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    font-family: 'Acme', cursive;
+    font-size: 1.5rem;
+}
