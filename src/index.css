@@ -16,6 +16,12 @@
     background-repeat: no-repeat;
     height: 1000px;
     position: relative;
+}
 
+.about-desc {
+    font-size: 1.4rem;
+}
 
+.top-border {
+    border-top: 2px solid black;
 }
