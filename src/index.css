@@ -1,5 +1,12 @@
 @import "../node_modules/bootstrap/";
 
+/* Custom utility classes */
+.max-w-100 {
+    max-width: 100%;
+}
+
+/* utility class end */
+
 .navbar-brand {
     font-family: 'Alfa Slab One', cursive;
     font-size: 2.5rem;
@@ -11,11 +18,8 @@
 }
 
 .hero-image {
-    background-image: url('./images/dice_BG2.jpeg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 1000px;
-    position: relative;
+    max-width: 100vw;
+    width: 100%;
 }
 
 .about-desc {
