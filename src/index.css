@@ -9,3 +9,13 @@
     font-family: 'Acme', cursive;
     font-size: 1.5rem;
 }
+
+.hero-image {
+    background-image: url('./images/dice_BG2.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+    position: relative;
+
+
+}
