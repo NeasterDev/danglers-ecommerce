@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "cocurrently \"cd client && npm i\" \"cd server && npm i\"",
+    "server": "cd server && npm i",
+    "client": "cd client && npm i"
   },
   "repository": {
     "type": "git",
